@@ -1,0 +1,1 @@
+export const API = 'https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js'

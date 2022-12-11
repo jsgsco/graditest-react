@@ -1,0 +1,119 @@
+.product_image
+    width: 100%
+
+    &_wrapper
+        width: 85%
+        animation-name: animation
+        animation-duration: 2s
+        text-align: center
+        display: none
+
+        img 
+            height: auto
+            width: 100%
+            filter: brightness(1.1)
+            mix-blend-mode: multiply
+            transform: rotate(-35deg)
+
+    &_more2
+        animation-name: animation2
+        animation-duration: 2s
+        width: 100%
+        display: flex
+        justify-content: space-around
+        display: none
+
+        &_item2
+            height: fit-content
+            border-radius: 15px
+            overflow: hidden
+            margin: 5px 0
+
+            &:hover 
+                cursor: pointer
+
+            img
+                height: auto
+                width: 80px
+                border-radius: 15px 
+                transition: 1s
+            
+            &:hover img 
+                transform: scale(1.5)
+
+    &_more
+        display: grid
+        grid-auto-flow: column
+        scroll-behavior: auto
+        gap: 1.2rem
+        overflow-y: auto
+        overscroll-behavior-x: contain
+        scroll-snap-type: x mandatory
+        scrollbar-width: none
+        animation-name: animation2
+        animation-duration: 2s
+
+        &::-webkit-scrollbar
+            display: none
+
+        &_item
+            scroll-snap-align: start
+            min-height: 200px
+            min-width: 320px
+            display: flex
+            align-items: center
+            justify-content: center
+            
+
+            img
+                grid-auto-flow: column
+                scroll-behavior: auto
+                gap: 1.2rem
+                overflow-y: auto
+                overscroll-behavior-x: contain
+                scroll-snap-type: x mandatory
+                scrollbar-width: none
+                animation-name: animation2
+                animation-duration: 2s
+                height: auto
+                width: 100%
+                
+
+@media screen and (min-width: $movil_m) 
+    .product_image
+        &_more
+            &_item
+                min-width: $movil_m
+
+@media screen and (min-width: $movil_l) 
+    .product_image
+        &_more
+            &_item
+                min-width: $movil_l
+
+@media screen and (min-width: $movil_xl) 
+    .product_image
+        &_more
+            &_item
+                min-width: $movil_xl
+
+@media screen and (min-width: $tablet) 
+    .product_image
+        &_more
+            &_item
+                min-width: $tablet
+
+                img
+                    width: 80%
+
+@media screen and (min-width: $desk_s) 
+    .product_image
+        &_wrapper
+            display: inline-block
+
+        &_more
+            display: none
+
+        &_more2
+            display: flex
+

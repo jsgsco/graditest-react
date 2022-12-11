@@ -1,0 +1,47 @@
+.cart 
+    width: 100%
+
+    &_item 
+        text-align: left
+        width: 100%
+        padding: 25px
+        display: flex
+        justify-content: space-between
+
+        &_product
+            width: 70%
+
+        &_product h3
+            font-size: x-large     
+
+        &_product h4  
+            font-weight: normal
+
+        &_accions 
+            width: 35%
+
+            button 
+                margin: 5px
+                width: 100%
+                padding: 8px
+                font-weight: 900
+                border: none
+                border-radius: 8px
+                transition: 1s
+
+                &:nth-child(1)
+                    background-color: black
+                    color: white
+
+                &:nth-child(2)
+                    background-color: #ff3838
+                    color: white
+
+                &:hover 
+                    cursor: pointer
+                    transform: scale(1.1)
+.compare 
+    text-decoration-line: line-through
+
+.price
+    color: #ff3838
