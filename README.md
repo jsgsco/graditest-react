@@ -30,9 +30,9 @@ El proyecto cuenta con varias funciones:
 * Hooks
 
 # Previsualizacion del Proyecto
-
 ### <img src="https://media.giphy.com/media/Y3dDLVAHZV5vuh8bBz/giphy.gif" width="1000px">
-
+### <img src="https://media.giphy.com/media/5gTvNiPCeZR67bVgrU/giphy.gif" width="1000px">
+### <img src="https://media.giphy.com/media/Lu1eso0ZFdYalBhgTz/giphy.gif" width="1000px">
 
 ## Licencia
 Este repositorio es de uso privado pero abierto al publico, cualquier re-publicacion sera reportada. [MIT licensed](./LICENSE)
