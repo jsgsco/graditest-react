@@ -31,7 +31,7 @@ El proyecto cuenta con varias funciones:
 
 # Previsualizacion del Proyecto
 
-### <img src="https://media.giphy.com/media/Y3dDLVAHZV5vuh8bBz/giphy.gif">
+### <img src="https://media.giphy.com/media/Y3dDLVAHZV5vuh8bBz/giphy.gif" width="1000px">
 
 
 ## Licencia
