@@ -15,7 +15,7 @@ Luego de ello inicia el proyecto con:
 ```
 yarn dev o npm run dev
 ```
-## Funcionalidades & Demas
+## Funcionalidades & Otros
 El proyecto cuenta con varias funciones:
 * Seleccion de Talla
 * Seleccion de Color
@@ -28,6 +28,8 @@ El proyecto cuenta con varias funciones:
 * Modularizacion
 * Context API
 * Hooks
+
+# Previsualizacion del Proyecto
 
 
 ## Licencia
